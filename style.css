@@ -1,6 +1,7 @@
 *{
     font-family: "Libertinus Mono";
     margin: 0;
+    list-style: none;
 }
 
 h1{
@@ -26,9 +27,15 @@ body{
 }
 nav{
     background-color: red;
-    width: 15%;
+    width: 100%;
+    
 }
-
+ol{
+    display: flex;
+    padding-right: 50px;
+    gap: 50px;
+    justify-content: center;
+}
 footer {
         bottom: 0;
         position: fixed;
@@ -36,3 +43,19 @@ footer {
         text-align: center;
         background-color: white;
     }
+
+    aside{
+        float: right;
+    }
+    .porta{
+        display: flex;
+        width: 100%;
+    }
+    img{
+        width: 400px;
+        height: 400px;
+    }
+  div{
+    justify-content: space-between;
+    margin-top: 15px;
+  }
