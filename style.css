@@ -1,0 +1,38 @@
+*{
+    font-family: "Libertinus Mono";
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    background-color: white;
+}
+a{
+    font-size: 20px;
+    color: black;
+}
+.area{
+    display: flex;
+    width: 30%;
+    margin-top: 80px;
+    font-size: large;
+    border: solid 2px black;
+    background-color: white;
+}
+body{
+    background-image: url(https://firmorama.com/wp-content/uploads/2022/12/COMPartigo_tipografia_site-1.png);
+    background-repeat: no-repeat;
+}
+nav{
+    background-color: red;
+    width: 15%;
+}
+
+footer {
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        background-color: white;
+    }
